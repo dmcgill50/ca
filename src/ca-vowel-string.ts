@@ -14,6 +14,6 @@ Treat this project as if it was code that you are going to deploy to a productio
 This exercise should take around an hour.   Thanks, and I look forward to getting to know you! */
 
 
-let example: string = 'The stray cat was cool.';
-console.log(example);
+let orig: string = 'The stray cat was cool.';
+console.log(orig);
 
