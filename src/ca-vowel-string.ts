@@ -11,9 +11,18 @@ Example: “The stray cat was cool.”
 Becomes: “T1e s2y c1t w1s c1l.”
 
 Treat this project as if it was code that you are going to deploy to a production environment.  
-This exercise should take around an hour.   Thanks, and I look forward to getting to know you! */
+This exercise should take around an hour.   Thanks, and I look forward to getting to know you! 
 
+Note: do not consider 'y' as a vowel for this excercise
+*/
 
-let orig: string = 'The stray cat was cool.';
-console.log(orig);
-
+// Example as Class
+export class Example {
+  orig: string;
+  expected: string;
+  constructor(orig: string, expected: string) {
+    this.orig = orig;
+    this.expected = expected;
+    console.log(`'Original: ${orig} Expected: ${expected}'`)
+  }
+}
