@@ -1,0 +1,22 @@
+{
+  "name": "ca",
+  "version": "1.0.0",
+  "description": "ca objective project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmcgill50/ca.git"
+  },
+  "keywords": [
+    "ca"
+  ],
+  "author": "David McGill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmcgill50/ca/issues"
+  },
+  "homepage": "https://github.com/dmcgill50/ca#readme"
+}
